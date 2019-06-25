@@ -3,9 +3,11 @@ Implementado por Mihael Scofield de Azevedo e Thauan de Souza Tavares.
 Feito originalmente por Roberto Hexsel.
 Aplicado como trabalho da disciplina Projetos Digitais e Microprocessadores - ci210 (UFPR) por Eduardo Todt em 2019-1.
 
+## Resumo
 O Mico XII é um microprocessador de arquitetura MIPS, que executa 16 funções, todo implementado em VHDL,
 a explicação de seus arquivos segue abaixo:
 
+## Estrutura
 - aux.vhd -- contém alguns dos modelos usados até agora; acrescente somente
            modelos usados nos laboratorios a este arquivo.
 
