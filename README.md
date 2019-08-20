@@ -8,20 +8,16 @@ O Mico XII é um microprocessador de arquitetura MIPS, que executa 16 funções,
 a explicação de seus arquivos segue abaixo:
 
 ## Estrutura
-- aux.vhd -- contém alguns dos modelos usados até agora; acrescente somente
-           modelos usados nos laboratorios a este arquivo.
+- aux.vhd -- contém alguns dos modelos usados para auxiliar no projeto.
 
-- mem.vhd -- seu programa em assembly do Mico deverá ser escrito neste
-	   arquivo, que já contém um programa para testar algumas instruções.
+- mem.vhd -- aqui está o programa em assembly executado pelo Mico.
 
 - mico.vhd -- Todo o VHDL pesado está aqui, contendo a estrutura do Mico em si.
 
-- packageWires.vhd -- contém as definições de tipos e funções necessários
-                    para completar seu projeto.
+- packageWires.vhd -- contém as definições de tipos e funções necessárias.
 
 - tb_mico.vhd -- contém o gerador de relógio e de reset, e instancia o mico.
 
-- run.sh -- executa o simulador.  Os argumentos de linha de comando são
-          diferentes daqueles usados nos laboratórios. Diga  ./run.sh -?
+- run.sh -- executa o simulador. Diga  ./run.sh -?
 
 - v.sav -- configuração do gtkwave.
