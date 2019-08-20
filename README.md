@@ -14,8 +14,7 @@ a explicação de seus arquivos segue abaixo:
 - mem.vhd -- seu programa em assembly do Mico deverá ser escrito neste
 	   arquivo, que já contém um programa para testar algumas instruções.
 
-- mico.vhd -- TODO o seu código novo deverá ser escrito neste arquivo, e
-            somente neste arquivo.
+- mico.vhd -- Todo o VHDL pesado está aqui, contendo a estrutura do Mico em si.
 
 - packageWires.vhd -- contém as definições de tipos e funções necessários
                     para completar seu projeto.
